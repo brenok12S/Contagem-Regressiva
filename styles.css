@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Open+Sans:wght@700&family=Poppins:wght@100;200;300;400&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/2022-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    padding-bottom: 80px;
+}
+
+.container .content {
+    padding-left: 40rem;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.container .content .title {
+    font-size: 55px;
+    color: #dab264 ; /*cba135*/
+}
+
+.container .content .count-down {
+    display: flex;
+    padding: 10px 0;
+    justify-content: center;
+    gap: 15px;
+}
+
+.container .content .count-down .box h3 {
+    font-size: 50px;
+    background:#dab264;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container .content .count-down .box p {
+    font-size: 20px;
+    color: #dab264;
+    padding: 5px 0;
+}
+
+.container .content p {
+    font-size: 40px;
+    color: #fff;
+}
+
+.container .content h1 {
+    font-size: 50px;
+    color: #dab264;
+}
+
+.container .content .btn {
+    display: inline-block;
+    padding: 9px 40px;
+    background: #dab264;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10;
+    border-radius: 5px;
+}
+
+.container .content .btn:hover {
+    transform: scaleY(1.1);
+    background: #fff;
+    color: #dab264;
+}
+
